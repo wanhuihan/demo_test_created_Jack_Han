@@ -1,0 +1,124 @@
+<!-- your code goes here -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
+    </head>
+    <body>
+        <!-- navigation -->
+        <header class="nav">
+            <div class="nav_logo">
+
+                <img src="Assets/icon--taco.svg" alt="">
+                <div class="m-nav-icon">
+                    <img src="Assets/icon--hamburger.svg" alt="">
+                </div>
+                <h2>Austin Tacos</h2>
+            </div>
+            <div class="nav_link">
+                <div class="m-nav_link_head">
+                    <img src="Assets/taco.svg" alt="">
+                    <h2>Austin Tacos</h2>
+                </div>
+                <ul>
+                    <li class="nav_link_item"><span>Location</span></li><li class="nav_link_item"><span>Menu</span>
+                        <ul class="nav_link_sub">
+                            <li class="nav_link_sub_item">Breakfast Menu</li>
+                            <li class="nav_link_sub_item">Lunch Menu</li>
+                            <li class="nav_link_sub_item">Dinner Menu</li>
+                        </ul>
+                    </li><li class="nav_link_item"><span>Shop</span></li><li class="nav_link_item"><span>Our Story</span></li><li class="nav_link_item"><span>News</span></li>
+                </ul>
+                <div class="m-nav_link_close">
+                    <img src="Assets/icon--close.svg" alt="">
+                </div>
+            </div>
+            <div class="nav_r">
+                <img src="Assets/icon--search.svg" alt="">
+                <img src="Assets/icon--cart.svg" alt="">
+            </div>
+        </header>
+        <!-- main body -->
+        <div class="main">
+            <!--  -->
+            <div class="main_description">
+                <h2 class="main_description_title">Order online</h2>
+                <p>
+                    Every day is taco ipsum tuesday. These tacos are lit 🔥. Fish tacos: lettuce or cabbage, pico de gallo,
+                    avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla.
+                    Pico de gallo, on the side please. If you were a taco, would you eat yourself? Flour or corn tortillas?
+                    Does guac cost extra? If you were a taco, would you eat yourself? TACOS!! Can you put some peppers and
+                    onions on that? Tacos, again? This will be 5 times this week and it’s only Tuesday.
+                </p>
+            </div>
+            <!--  -->
+            <div class="main_location">
+                <ul>
+                    <li class="main_location_item">
+                        <div>
+                            <span class="main_location-title">Spicewood</span>
+                            <p class="main_location-desc">3021 First Street
+                            Austin, TX 78920
+                            512-301-0000</p>
+                        </div>
+                    </li>
+                    <li class="main_location_item">
+                        <div>
+                            <span class="main_location-title">Casa Linda</span>
+                            <p class="main_location-desc">3021 First Street
+                            Austin, TX 78920
+                            512-301-0000</p>
+                        </div>
+                    </li>
+                    <li class="main_location_item">
+                        <div>
+                            <span class="main_location-title">Richardson</span>
+                            <p class="main_location-desc">3021 First Street
+                            Austin, TX 78920
+                            512-301-0000</p>
+                        </div>
+                    </li>
+                    <li class="main_location_item">
+                        <div>
+                            <span class="main_location-title">Sugar Land</span>
+                            <p class="main_location-desc">3021 First Street
+                            Austin, TX 78920
+                            512-301-0000</p>
+                        </div>
+                    </li>
+                    <li class="main_location_item">
+                        <div>
+                            <span class="main_location-title">Broadway</span>
+                            <p class="main_location-desc">3021 First Street
+                            Austin, TX 78920
+                            512-301-0000</p>
+                        </div>
+                    </li>
+                    <li class="main_location_item">
+                        <div>
+                        <span class="main_location-title">Kingwood</span>
+                        <p class="main_location-desc">3021 First Street
+                        Austin, TX 78920
+                        512-301-0000</p>
+                    </div>
+                    </li>
+                </ul>
+                <!--  -->
+                <div class="main_location_btn_group">
+                    <span class="btn default-btn">Cancel</span>
+                    <span class="btn default-btn">Choose items</span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                g.init('.nav_link','.main_location');
+            })
+        </script>
+    </body>
+</html>

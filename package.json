@@ -1,0 +1,21 @@
+{
+  "name": "NavExercise",
+  "description": "Exercise for candidates to complete where they will build a responsive page and navigation",
+  "version": "0.1.1",
+  "authors": [
+    "David Chiu <david.chiu@publicis.sapient.com>"
+  ],
+  "license": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "^4.2.0",
+    "morgan": "~1.0.0"
+  },
+  "devDependencies": {
+    "node-sass-middleware": "^0.11.0"
+  }
+}
